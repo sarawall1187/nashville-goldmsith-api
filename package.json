@@ -1,0 +1,25 @@
+{
+  "name": "nashville-goldsmith-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarawall1187/nashville-goldmsith-api.git"
+  },
+  "author": "Sara Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarawall1187/nashville-goldmsith-api/issues"
+  },
+  "homepage": "https://github.com/sarawall1187/nashville-goldmsith-api#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
