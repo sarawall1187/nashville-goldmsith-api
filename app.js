@@ -30,7 +30,7 @@ app.post('/api/email', (req, res, next) => {
 
     sendGrid.setApiKey();
     const msg = {
-        to: 'garrettlove5346@gmail.com',
+        to: 'nashvillegoldsmith@gmail.com',
         from: req.body.email,
         subject: 'Website Contact',
         text: req.body.message
